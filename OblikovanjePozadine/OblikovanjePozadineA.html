@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Ovo je HTML komentar -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Oblikovanje pozadine</title>
+    <style>
+        h1{
+            text-align: center;
+            color: cadetblue;
+            /* Ovo je CSS komentar */
+        }
+        .blok-boja{
+            background-color: burlywood;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .blok-gradient{
+            background: linear-gradient(to right, #4facfe, #00f2fe);
+            color:white;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .blok-slika{
+            background-image: url("https://www.ssnm.hr/wp-content/uploads/fbsoc.jpg");
+            background-size: cover;
+            background-position: center;
+            padding: 20px;
+            margin-bottom: 20px;
+        }
+        .tekst-okvir{
+            background-color: rgba(0,0,0,0.6);
+            color:white;
+            padding:10px;
+            display:inline-block;
+        }
+    </style>
+</head>
+<body>
+    <h1>Oblikovanje pozadine</h1>
+    <div class="blok-boja">
+        <h2>Pozadina u boji</h2>
+        <p>Ovo je primjer pozadine koja ima jednu boju.</p>
+    </div>
+    <div class="blok-gradient">
+        <h2>Pozadina s gradientom</h2>
+        <p>Gradient omogućuje prijelaz imeđu više boja.</p>
+    </div>
+    <div class="blok-slika">
+        <h2>Pozadina sa slikom</h2>
+        <p class="tekst-okvir">Kada koristimo sliku za pozadinu moramo paziti na čitljivost teksta.</p>
+    </div>
+</body>
+</html>
