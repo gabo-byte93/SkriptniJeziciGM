@@ -1,0 +1,131 @@
+body {
+  margin: 0;
+  min-height: 700px;
+  background-image: url(gift.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: monospace;
+  color: #1f1f1f;
+  padding: 24px;
+}
+
+.cestitka {
+  width: min(720px, 100%);
+  background-color: #ffffff;
+  border-radius: 18px;
+  padding: 26px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+  border-top: 10px solid #ff0000;;
+  position: relative;
+}
+
+/* ".cestitka" je okvir koji drži naše blokove i tekst, njim smo u ovom slučaju mjenjali veličinu, poziciju, i samo izgled njega, ne blokova */
+
+.zaglavlje {
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+/* ".zaglavlje" nisam ni mjenjao, da budem iskren nemam pojma kaj to je 😭🙏 */
+
+.mali-tekst {
+  margin: 0 0 6px 0;
+  font-size: 12px;
+  letter-spacing: 2px;    
+  text-transform: uppercase;
+  text-align: left;
+  color: #6b6b6b;
+}
+
+/* ".mali-tekst" mjenja kako izgleda naš tekst iznad naslova, ne radi ništa ostalim elementima */
+
+h1 {
+  margin: 0;
+  font-size: 34px;        
+  letter-spacing: 1px;
+  color: #ad1457;
+}
+
+/* "h1" mjenja stil svakog h1 elementa unutar stranice, u ovom slučaju samo naslov :) */
+
+.podnaslov {
+  margin: 10px 0 0 0;
+  font-size: 16px;
+  line-height: 1.7;       
+  color: #333;
+  font-family: times new roman;
+}
+
+/* ".podnaslov" mjenja kako izgleda nas podnaslov, ne radi ništa ostalim elementima */
+
+.blok {
+  padding: 18px;
+  border-radius: 16px;
+  margin: 14px 0;
+}
+
+/* ".blok" mjenja kako svaki blok izgleda */
+
+.blok h2 {
+  margin: 0 0 8px 0;
+  text-transform: uppercase; 
+  letter-spacing: 1px;
+  font-size: 17px;
+  color: #ff0000;
+  font-family: sans-serif;
+}
+
+/* ".blok h2" mjenja sve elemente <h2> unutar blokova */
+
+.blok p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: left; 
+  font-family: times new roman;   
+}
+
+/* ".blok p" mjenja stil samo za <p> unutar elemanta sa klasom "blok" */
+
+.boja {
+  background-color: #b1dac4;  
+  border: 1px solid #ff8f8ff5;
+}
+
+/* ".boja" mjenja pozadinu prvog bloka i daje mu blagi okvir bojom koju odaberemo */
+
+.gradijent {
+  background: linear-gradient(90deg, #b9e4ce, #f1f1f1);
+}
+
+/* ".gradijent" mjenja boju pozadine samo drugog bloka ovisno o 2 boje koje smo odabrali */
+
+.slika {
+  background-image: url("gift2.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+}
+
+/* ".slika" mjenja našu pozadinu SAMO trećeg bloka te dodaje mu pravu sliku, stavio sam overlay preko da tekst bude čitljiv */
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.86);
+  padding: 12px;
+  border-radius: 16px;
+  
+}
+
+/* ".overlay" je mali bijeli okvir koji stoji iznad pozadinske slike, služi da možemo tekst ljepše pročitati */
+
+.potpis {
+  text-align: right;
+  margin-top: 12px;
+  font-style: italic;
+  color: #555;
+}
+
+/* mislim da ne moram ni objašnjavati kaj radi ".potpis" 😆 ako je ovo za ocjenu dajte pet pls 😭🙏  */
+
+/* btw spin the wheel je izabrao Matiju Kvara, pa sam za njega napravio čestitku. Christmas came a lil bit too early :) */
