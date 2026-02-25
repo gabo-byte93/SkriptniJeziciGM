@@ -1,0 +1,226 @@
+body {
+  margin: 0;
+  min-height: 700px;
+  background-image: url(eldenringscreenshot2023.jpg);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: arial;
+  color: #000000;
+  padding: 24px;
+  font-size: 14px;
+}
+
+.hompatompa {
+  width: min(900px, 100%);
+  background-color: transparent;
+  border-radius: 18px;
+  padding: 26px;
+  box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+  position: relative;
+}
+
+ /* 
+  Ovdje ću staviti jedan honorable mention, Nioh 2
+  Predivna igra, mislio sam ju staviti na top 3 ali sam ipak odlučio sakriti ju ovdje
+  Moj rating za nioh 2 = Masterpiece/10 mozda cak bolje od elden ringa
+*/
+
+.zaglavlje{
+  text-align: center;
+  margin-bottom: 18px;
+}
+
+h1 {
+  margin: 0;
+  font-size: 34px;        
+  letter-spacing: 1px;
+  color: #000000;
+  font-family: impact;
+}
+
+.podnaslov {
+  font-size: 20px;
+  line-height: 1.7;       
+  color: #333;
+  font-family: arial;
+}
+
+.overlay {
+  margin-left: 80px;
+  margin-right: 80px;
+  font-size: 16px;
+  line-height: 1.7;       
+  color: #333;
+  font-family: arial;
+  background-color: rgba(255, 255, 255, 0.86);
+  border-radius: 24px;
+}
+
+.blok {
+  padding: 18px;
+  border-radius: 16px;
+  margin: 0 auto;
+}
+
+.blok h2 {
+  margin: 0 0 8px 0;
+  text-transform: uppercase; 
+  letter-spacing: 1px;
+  font-size: 17px;
+  color: #ff0000;
+  font-family: sans-serif;
+}
+
+.blok p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.7;
+  text-align: left; 
+  font-family: times new roman;
+}
+
+.omot {
+  background-color: rgb(0, 56, 139);
+  border: 1px solid #000000f5;
+  padding: 20px;
+  border-radius: 16px;
+
+}
+
+th, td{
+  padding: 14px;
+  border: none;
+}
+
+.ocjena {
+  background-color: rgb(0, 168, 188);
+  color: #000000f5;
+  font-weight: bold;
+  border: 1px solid transparent;
+  border-top: none;
+  border-bottom: none;
+}
+
+table:has(.ocjena:hover) .ocjena {
+  transition: 0.50s;
+  background-color: goldenrod;
+}
+
+table:has(.deset:hover) .deset {
+  transition: 0.50s;
+  background-color: rgb(14, 110, 30);
+}
+
+table:has(.devet:hover) .devet {
+  transition: 0.50s;
+  background-color: red;
+  font-weight: bold;
+}
+
+table:has(.osam:hover) .osam {
+  transition: 0.50s;
+  background-color: rgb(27, 104, 39);
+}
+
+table:has(.sedam:hover) .sedam {
+  transition: 0.50s;
+  background-color: yellow;
+}
+
+table:has(.sest:hover) .sest {
+  transition: 0.50s;
+  background-color: rgb(167, 128, 0);
+}
+
+table:has(.pet:hover) .pet {
+  transition: 0.50s;
+  background-color: rgb(24, 24, 24);
+  color:white;
+}
+
+table:has(.cetiri:hover) .cetiri {
+  transition: 0.50s;
+  background-color: rgb(24, 24, 24);
+  color: white;
+}
+
+table:has(.tri:hover) .tri {
+  transition: 0.50s;
+  background-color: rgb(29, 19, 2);
+  color: white;
+}
+
+table:has(.dva:hover) .dva {
+  transition: 0.50s;
+  background-color: rgb(255, 146, 146);
+}
+
+table:has(.jedan:hover) .jedan {
+  transition: 0.50s;
+  background-color: goldenrod;
+}
+
+/*
+   Mislim da ovu naredbu nismo obradili u školi pa ću je objasniti, uzmimo klasu ".jedan" kao primjer
+   Nije baš komplicirano, ova naredba radi tako što provjerava da li naš cursor hovera preko jednog od ".jedan" klasa
+   Ako je tako onda će se stil promjeniti na svakom elementom koji je označen klasom ".jedan"
+   Tu naredbu sam pronašao na w3schools.com pa sam je odlučio koristiti :)
+*/
+
+.tablica {
+  border: 1px solid darkblue;
+  border-bottom: transparent;
+  width: 100%;
+  background: linear-gradient(90deg, gray, white);
+  text-align: center;
+  border-collapse: separate;
+  border-radius: 16px;
+  border-spacing: 0;
+  overflow: hidden;
+}
+
+/*
+  Overflow kontrolira što se dogodi sadržaju kada je prevelik da negdje stane
+  Koristio sam ga jer sam imao malih problema sa borderom i ostatkom prostora
+  Iskreno nemam pojma kak je pomoglo samo sam se igral malo s tim i proradilo je
+  Evo link gdje sam pronašao informacije o overflowu
+  https://www.w3schools.com/css/css_overflow.asp
+*/
+.najdraza {
+  background: linear-gradient(90deg, rgb(10, 1, 131), rgb(0, 225, 255));
+  color: #fffffff5
+}
+
+table:has(.nula:hover) .nula {
+  transition: 0.50s;
+  background-color: rgb(214, 145, 194);
+}
+
+.red {
+  background-color: rgb(139, 139, 139);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border-right: 1px solid transparent;
+}
+
+.red2 {
+  background: linear-gradient(90deg, gray, white);
+  color: black;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.red3 {
+  background-color: rgb(10, 1, 131);
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+/* 
+  Da budem iskren ne sviđa mi se kak sam napravil stranicu smatram da sam mogel 100 put bolje
+  Samo kaj mi se više nije dalo, trenutno 18:45 je dok pišem ovu glupu poruku
+  Bum ja to sljedeči put bolje napravil (lazem)
+*/
